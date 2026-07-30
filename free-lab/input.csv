@@ -1,0 +1,4 @@
+record_id,url,fixture
+sku-001,https://example.invalid/products/sku-001,product_a.html
+sku-002,https://example.invalid/products/sku-002,product_b.html
+sku-002,https://example.invalid/products/sku-002,product_b.html
