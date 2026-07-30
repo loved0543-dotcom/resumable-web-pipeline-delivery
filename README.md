@@ -3,6 +3,8 @@
 A tested Python + Playwright source kit for collecting structured data from
 pages you own or have permission to automate.
 
+[![Free resume lab](https://github.com/loved0543-dotcom/resumable-web-pipeline-delivery/actions/workflows/free-lab.yml/badge.svg)](https://github.com/loved0543-dotcom/resumable-web-pipeline-delivery/actions/workflows/free-lab.yml)
+
 [25% launch sale: Personal $18 or Team $44.25](https://lovelife717.gumroad.com/l/resumable-web-to-csv-pipeline/REDDIT25)
 
 The discount is applied automatically through August 1 at 20:13 KST for the
@@ -11,6 +13,32 @@ first 20 uses. Regular prices are $24 Personal and $59 Team.
 Prefer a guided explanation before buying source code? The
 [$9 Retry Is Not Resume field manual](https://oneeyeview-automation.vercel.app/#manual)
 includes a 30-minute offline interruption lab and a free 6-page preview.
+
+## Run the interruption proof before buying
+
+The repository includes a free, fixed-fixture proof that uses only Python's
+standard library. It makes no network request and requires Python 3.10 or newer.
+
+```text
+python free-lab/run_demo.py
+```
+
+Expected proof:
+
+```text
+RUN_1_EXIT=130
+COMPLETED_RECORDS_REFETCHED=0
+FINAL_RECORDS=2
+DUPLICATES_SKIPPED=1
+LAB_OK
+```
+
+[Read the free lab instructions](free-lab/README.md).
+
+The free lab proves one fixed interruption path. The $9 Field Manual adds the
+failure model, crash-window analysis, evidence-reading guide, and production
+checklist. The paid Pipeline Kit adds configurable fields and selectors,
+Playwright collection, retry handling, logs, reports, and full source tests.
 
 [Watch the 38-second fixed-fixture interruption proof](https://youtu.be/jRI8GmuvE2M):
 the first durable record survives a forced stop, and the second run refetches
