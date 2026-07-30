@@ -3,7 +3,10 @@
 A tested Python + Playwright source kit for collecting structured data from
 pages you own or have permission to automate.
 
-[Buy Personal for $24 or Team for $59](https://lovelife717.gumroad.com/l/resumable-web-to-csv-pipeline)
+[25% launch sale: Personal $18 or Team $44.25](https://lovelife717.gumroad.com/l/resumable-web-to-csv-pipeline/REDDIT25)
+
+The discount is applied automatically through August 1 at 20:13 KST for the
+first 20 uses. Regular prices are $24 Personal and $59 Team.
 
 ![Resumable Web-to-CSV Pipeline Kit overview](assets/cover.png)
 
