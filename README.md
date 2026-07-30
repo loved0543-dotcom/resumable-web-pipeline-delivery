@@ -12,6 +12,10 @@ Prefer a guided explanation before buying source code? The
 [$9 Retry Is Not Resume field manual](https://oneeyeview-automation.vercel.app/#manual)
 includes a 30-minute offline interruption lab and a free 6-page preview.
 
+[Watch the 38-second fixed-fixture interruption proof](https://youtu.be/jRI8GmuvE2M):
+the first durable record survives a forced stop, and the second run refetches
+zero completed records.
+
 ![Resumable Web-to-CSV Pipeline Kit overview](assets/cover.png)
 
 ## What is included
