@@ -56,7 +56,7 @@ self.assertIn("LAB_OK", result.stdout)
 
 - [ ] **Step 2: Confirm RED**
 
-Run: `python -m unittest free-lab/test_offline_lab.py -v`
+Run: `python free-lab/test_offline_lab.py -v`
 
 Expected: FAIL because `free-lab/run_demo.py` does not exist.
 
@@ -67,7 +67,7 @@ contains one `data-field="title"` and one `data-field="price"` value.
 
 - [ ] **Step 4: Keep the test red**
 
-Run: `python -m unittest free-lab/test_offline_lab.py -v`
+Run: `python free-lab/test_offline_lab.py -v`
 
 Expected: FAIL because the public runner still does not exist.
 
@@ -111,7 +111,7 @@ The README gives the Python command first and PowerShell alternative second.
 
 - [ ] **Step 4: Confirm GREEN**
 
-Run: `python -m unittest free-lab/test_offline_lab.py -v`
+Run: `python free-lab/test_offline_lab.py -v`
 
 Expected: `Ran 3 tests ... OK`.
 
@@ -154,13 +154,13 @@ steps:
   - uses: actions/setup-python@v5
     with:
       python-version: ${{ matrix.python-version }}
-  - run: python -m unittest free-lab/test_offline_lab.py -v
+  - run: python free-lab/test_offline_lab.py -v
   - run: python free-lab/run_demo.py
 ```
 
 - [ ] **Step 3: Run local final verification**
 
-Run: `python -m unittest free-lab/test_offline_lab.py -v`
+Run: `python free-lab/test_offline_lab.py -v`
 
 Expected: `Ran 3 tests ... OK`.
 
