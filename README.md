@@ -19,6 +19,13 @@ includes a 30-minute offline interruption lab and a free 6-page preview.
 The repository includes a free, fixed-fixture proof that uses only Python's
 standard library. It makes no network request and requires Python 3.10 or newer.
 
+**One-click download:** [Free Resume Lab v1.0.0 ZIP](https://github.com/loved0543-dotcom/resumable-web-pipeline-delivery/releases/download/free-lab-v1.0.0/Free_Resume_Lab_v1.0.0.zip)
+
+- Size: 5,373 bytes
+- SHA-256: `731ED5D5B4667CEB31BFFC283D3D0D3CAE2752A80C07C27E5394A289B1EC97B6`
+
+Extract the ZIP, open a terminal in the extracted folder, and run:
+
 ```text
 python free-lab/run_demo.py
 ```

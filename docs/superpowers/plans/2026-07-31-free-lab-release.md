@@ -133,7 +133,7 @@ git commit -m "feat: package verified free resume lab"
 ### Task 3: Publish precise buyer documentation
 
 **Files:**
-- Modify: `free-lab/README.md`
+- Modify: `README.md`
 - Create: `free-lab/RELEASE_NOTES_v1.0.0.md`
 
 **Interfaces:**
@@ -148,15 +148,19 @@ Add the direct URL:
 https://github.com/loved0543-dotcom/resumable-web-pipeline-delivery/releases/download/free-lab-v1.0.0/Free_Resume_Lab_v1.0.0.zip
 ```
 
-Record the observed byte size and SHA-256, and say to extract then run `python free-lab/run_demo.py`.
+Record the observed byte size and SHA-256 in the root README, which is outside
+the ZIP, and say to extract then run `python free-lab/run_demo.py`. Keep the
+included `free-lab/README.md` free of a self-referential archive checksum.
 
 - [ ] **Step 2: Write release notes**
 
 State Python 3.10+, no third-party package, no network during execution, fixed fixtures, and that this is neither the configurable paid Pipeline Kit nor an arbitrary-site performance claim.
 
-- [ ] **Step 3: Repackage after README changes and update checksum**
+- [ ] **Step 3: Repackage and confirm the external checksum**
 
-Run `python free-lab/package_release.py`, insert its final SHA-256 and size in `free-lab/README.md`, then run it again and confirm the printed values exactly match the documentation.
+Run `python free-lab/package_release.py`, insert its final SHA-256 and size in
+the root `README.md`, then run it again and confirm the printed values exactly
+match the external documentation.
 
 - [ ] **Step 4: Run the full free-lab suite**
 
@@ -167,7 +171,7 @@ Expected: all tests PASS.
 - [ ] **Step 5: Commit buyer documentation**
 
 ```text
-git add free-lab/README.md free-lab/RELEASE_NOTES_v1.0.0.md
+git add README.md free-lab/RELEASE_NOTES_v1.0.0.md docs/superpowers/plans/2026-07-31-free-lab-release.md
 git commit -m "docs: add one-click free lab download"
 ```
 
@@ -267,4 +271,3 @@ Record current Gumroad sales, views, and revenue without claiming that views or 
 - [ ] **Step 5: Finalize browser and append the audit trail**
 
 Return Chrome to exactly one `about:blank` tab. Append timestamped public URL, commit/tag, byte size, SHA-256, extracted proof, Gumroad readback, metrics, and any remaining CAPTCHA limitation to `STATUS.md` and `revenue_ledger.csv`.
-
