@@ -74,9 +74,16 @@ process-interruption resume check. Its included demo processed
 - **Personal:** 1 user
 - **Team:** up to 5 users in one legal entity
 
-Release assets are AES-encrypted. Gumroad shows the matching download link and
-password only after purchase. Personal and Team archives contain their
-respective license files.
+Gumroad directly attaches the matching v1.0.1 ZIP after purchase. Windows File
+Explorer can extract it; no archive password or 7-Zip is required.
+
+- Personal ZIP: 24,065 bytes · SHA-256
+  `9599F57EDE94A69D5B28AC0EEEA5292A75A782FC5CE1D631AE8EB7991FCC861C`
+- Team ZIP: 24,100 bytes · SHA-256
+  `2838263414D57CC476BD338D699B238314D60D7A2036EA9C45FA5795BFB1807D`
+
+Personal and Team archives contain their respective license files. The
+AES-encrypted GitHub release assets remain available only as legacy backups.
 
 ## Scope
 
