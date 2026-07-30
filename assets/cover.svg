@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f2f5f7"/>
+  <rect width="1280" height="8" fill="#0074c8"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#111820">
+    <rect x="56" y="48" width="34" height="34" fill="none" stroke="#0074c8" stroke-width="2"/>
+    <text x="73" y="70" text-anchor="middle" font-size="12" font-weight="800" fill="#0074c8">1E</text>
+    <text x="103" y="69" font-size="12" font-weight="800" letter-spacing="2.2">ONE EYE AUTOMATION</text>
+
+    <text x="56" y="160" font-size="12" font-weight="800" letter-spacing="2.1" fill="#0074c8">PYTHON SOURCE KIT · V1.0.1</text>
+    <text x="56" y="226" font-size="58" font-weight="750" letter-spacing="-3">Web pages in.</text>
+    <text x="56" y="286" font-size="58" font-weight="750" letter-spacing="-3" fill="#0074c8">Resume-safe CSV out.</text>
+    <text x="56" y="337" font-size="18" fill="#56616c">Configure fields once. Checkpoint every successful record.</text>
+    <text x="56" y="365" font-size="18" fill="#56616c">Retry unfinished work and keep a verifiable output trail.</text>
+
+    <line x1="56" y1="414" x2="528" y2="414" stroke="#111820" stroke-width="2"/>
+    <text x="56" y="454" font-size="22" font-weight="750">$24 Personal · $59 Team</text>
+    <text x="56" y="480" font-size="12" font-weight="700" letter-spacing="1.4" fill="#66717a">ONE-TIME · FULL PYTHON SOURCE</text>
+
+    <rect x="620" y="82" width="604" height="486" fill="#dfe6eb"/>
+    <rect x="602" y="64" width="604" height="486" fill="#ffffff" stroke="#c8d2db"/>
+    <text x="632" y="100" font-size="11" font-weight="800" letter-spacing="1.5">ACTUAL BUNDLED DEMO</text>
+    <text x="1175" y="100" text-anchor="end" font-size="11" font-weight="800" letter-spacing="1.5" fill="#0074c8">LOCAL-FIRST</text>
+
+    <rect x="632" y="124" width="544" height="82" fill="#ffffff" stroke="#d7dfe5"/>
+    <text x="651" y="148" font-size="11" font-weight="800" letter-spacing="1.1" fill="#0074c8">INPUT</text>
+    <text x="724" y="149" font-family="Consolas, monospace" font-size="13">record_id,url</text>
+    <text x="724" y="174" font-family="Consolas, monospace" font-size="13">P-001,fixture://product_a</text>
+    <text x="724" y="196" font-family="Consolas, monospace" font-size="13">P-002,fixture://product_b</text>
+
+    <text x="904" y="229" text-anchor="middle" font-size="18" font-weight="900" fill="#0074c8">↓</text>
+    <rect x="632" y="244" width="544" height="102" fill="#ffffff" stroke="#d7dfe5"/>
+    <text x="651" y="269" font-size="11" font-weight="800" letter-spacing="1.1" fill="#0074c8">CONFIG</text>
+    <text x="724" y="270" font-family="Consolas, monospace" font-size="13">name   → h1.product-title</text>
+    <text x="724" y="295" font-family="Consolas, monospace" font-size="13">amount → [data-price] · digits</text>
+    <text x="724" y="320" font-family="Consolas, monospace" font-size="13">sku    → #sku · optional</text>
+
+    <text x="904" y="370" text-anchor="middle" font-size="18" font-weight="900" fill="#0074c8">↓</text>
+    <rect x="632" y="385" width="544" height="89" fill="#ffffff" stroke="#d7dfe5"/>
+    <text x="651" y="410" font-size="11" font-weight="800" letter-spacing="1.1" fill="#0074c8">OUTPUT</text>
+    <text x="724" y="411" font-family="Consolas, monospace" font-size="13">P-001  Resume-safe Product      2400</text>
+    <text x="724" y="440" font-family="Consolas, monospace" font-size="13">P-002  Evidence-first Pipeline 5900</text>
+
+    <g font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">
+      <rect x="632" y="492" width="130" height="38" fill="#111820"/><text x="697" y="516">CSV</text>
+      <rect x="770" y="492" width="130" height="38" fill="#111820"/><text x="835" y="516">REPORT</text>
+      <rect x="908" y="492" width="130" height="38" fill="#111820"/><text x="973" y="516">STATE</text>
+      <rect x="1046" y="492" width="130" height="38" fill="#111820"/><text x="1111" y="516">JSONL LOG</text>
+    </g>
+
+    <line x1="56" y1="618" x2="1224" y2="618" stroke="#c7d1d9"/>
+    <g transform="translate(56 644)">
+      <text font-size="19" font-weight="800">10 / 10</text><text y="23" font-size="10" letter-spacing="1.2" fill="#68747e">EXTRACTED TESTS PASSED</text>
+    </g>
+    <g transform="translate(348 644)">
+      <text font-size="19" font-weight="800">INTERRUPT</text><text y="23" font-size="10" letter-spacing="1.2" fill="#68747e">RESUME CHECK PASSED</text>
+    </g>
+    <g transform="translate(640 644)">
+      <text font-size="19" font-weight="800">2 / 0</text><text y="23" font-size="10" letter-spacing="1.2" fill="#68747e">SUCCEEDED / FAILED</text>
+    </g>
+    <g transform="translate(932 644)">
+      <text font-size="19" font-weight="800">1</text><text y="23" font-size="10" letter-spacing="1.2" fill="#68747e">DUPLICATE SAFELY SKIPPED</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#eef2f5"/>
+  <rect width="1280" height="8" fill="#0074c8"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#121820">
+    <text x="52" y="69" font-size="11" font-weight="800" letter-spacing="2" fill="#0074c8">REAL INCLUDED FIXTURE · NO MOCK CLAIMS</text>
+    <text x="52" y="113" font-size="38" font-weight="750" letter-spacing="-1.6">One config. Four verifiable outputs.</text>
+    <text x="858" y="67" font-size="14" fill="#5d6973">The input, config, CSV, checkpoint state,</text>
+    <text x="858" y="90" font-size="14" fill="#5d6973">report, log, and tests ship in the ZIP.</text>
+    <line x1="52" y1="137" x2="1228" y2="137" stroke="#151b21" stroke-width="2"/>
+
+    <g font-family="Consolas, monospace">
+      <rect x="52" y="161" width="298" height="238" fill="#ffffff" stroke="#cbd5dd"/>
+      <rect x="52" y="161" width="298" height="38" fill="#111820"/>
+      <text x="67" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.3" fill="#ffffff">01 / INPUT.CSV</text>
+      <text x="70" y="231" font-size="13" font-weight="700" fill="#0074c8">record_id,url</text>
+      <text x="70" y="262" font-size="13">P-001,fixture://product_a</text>
+      <text x="70" y="291" font-size="13">P-002,fixture://product_b</text>
+      <text x="70" y="320" font-size="13">P-002,fixture://product_b</text>
+
+      <rect x="366" y="161" width="298" height="238" fill="#ffffff" stroke="#cbd5dd"/>
+      <rect x="366" y="161" width="298" height="38" fill="#111820"/>
+      <text x="381" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.3" fill="#ffffff">02 / PIPELINE_CONFIG.JSON</text>
+      <text x="384" y="231" font-size="13" font-weight="700" fill="#0074c8">name</text>
+      <text x="384" y="254" font-size="13">h1.product-title</text>
+      <text x="384" y="291" font-size="13" font-weight="700" fill="#0074c8">amount</text>
+      <text x="384" y="314" font-size="13">[data-price] → digits</text>
+      <text x="384" y="351" font-size="13" font-weight="700" fill="#0074c8">sku</text>
+      <text x="384" y="374" font-size="13">#sku → optional</text>
+
+      <rect x="680" y="161" width="548" height="238" fill="#ffffff" stroke="#cbd5dd"/>
+      <rect x="680" y="161" width="548" height="38" fill="#0074c8"/>
+      <text x="695" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.3" fill="#ffffff">03 / NORMALIZED.CSV</text>
+      <text x="698" y="231" font-size="13" font-weight="700" fill="#0074c8">record_id,name,amount,sku</text>
+      <text x="698" y="265" font-size="13">P-001,Resume-safe Product,2400,KIT-001</text>
+      <text x="698" y="299" font-size="13">P-002,Evidence-first Pipeline,5900,KIT-002</text>
+    </g>
+
+    <rect x="52" y="417" width="670" height="196" fill="#ffffff" stroke="#cbd5dd"/>
+    <text x="72" y="447" font-size="10" font-weight="800" letter-spacing="1.5" fill="#0074c8">04 / RUN_LOG.JSONL</text>
+    <g font-family="Consolas, monospace" font-size="12">
+      <text x="72" y="483">{"record_id":"P-001","status":"succeeded"}</text>
+      <text x="72" y="514">{"record_id":"P-002","status":"succeeded"}</text>
+      <text x="72" y="545">{"record_id":"P-002","status":"skipped","reason":"duplicate"}</text>
+    </g>
+    <text x="72" y="582" font-size="11" fill="#65717b">No page content, credentials, or local paths are written to the public log.</text>
+
+    <rect x="738" y="417" width="490" height="196" fill="#ffffff" stroke="#cbd5dd"/>
+    <text x="758" y="447" font-size="10" font-weight="800" letter-spacing="1.5" fill="#0074c8">EXTRACTED ZIP RECHECK · V1.0.1</text>
+    <text x="758" y="500" font-size="32" font-weight="800" letter-spacing="-1.2">10 passed in 1.36s</text>
+    <text x="758" y="534" font-size="12" fill="#65717b">Includes a real process-interruption resume check.</text>
+    <circle cx="1163" cy="518" r="48" fill="none" stroke="#0074c8" stroke-width="7"/>
+    <text x="1163" y="526" text-anchor="middle" font-size="22" font-weight="900" fill="#0074c8">10/10</text>
+
+    <text x="52" y="663" font-size="10" font-weight="700" letter-spacing="1.1" fill="#65717b">PER-RECORD CHECKPOINT · RETRY · ATOMIC WRITES · SAFE LOGS</text>
+    <text x="1228" y="663" text-anchor="end" font-size="10" font-weight="700" letter-spacing="1.1" fill="#65717b">PYTHON 3.12+ · NO PAID API</text>
+  </g>
+</svg>

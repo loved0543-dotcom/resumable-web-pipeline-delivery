@@ -1,4 +1,4 @@
-# Resumable Web-to-CSV Pipeline Kit
+# Resumable Web-to-CSV Pipeline Kit v1.0.1
 
 A tested Python + Playwright source kit for collecting structured data from
 pages you own or have permission to automate.
@@ -11,13 +11,14 @@ pages you own or have permission to automate.
 
 - Config-driven URL, field, selector, and output settings
 - Retry handling for transient failures
-- Resume state that skips completed records after interruption
+- Per-record durable checkpoints that skip completed records after interruption
 - Duplicate-ID protection
 - Atomic CSV and state-file writes
 - Safe JSONL logs and an HTML run report
 - Offline fixture demo, tests, and full Python source
 
-The extracted delivery archive passed **9/9 tests**. Its included demo processed
+The extracted delivery archive passed **10/10 tests**, including a real
+process-interruption resume check. Its included demo processed
 **2 records successfully, 0 failed, and skipped 1 duplicate safely**.
 
 ![Actual demo report and test evidence](assets/proof.png)
