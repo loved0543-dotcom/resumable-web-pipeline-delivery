@@ -10,6 +10,12 @@ pages you own or have permission to automate.
 The discount is applied automatically through August 1 at 20:13 KST for the
 first 20 uses. Regular prices are $24 Personal and $59 Team.
 
+Need the workflow adapted to one source you are authorized to use instead of a
+source kit? [Review the fixed $149 Data Reliability Pilot](https://oneeyeview-automation.vercel.app/data-reliability-pilot):
+one permitted source, up to 500 records, and 24-hour delivery. The page links
+to the public Dealwork profile and states the evidence and exclusion boundaries
+before you commit.
+
 Prefer a guided explanation before buying source code? The
 [$9 Retry Is Not Resume field manual](https://oneeyeview-automation.vercel.app/#manual)
 includes a 30-minute offline interruption lab and a free 6-page preview.
